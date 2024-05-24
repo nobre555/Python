@@ -5,8 +5,8 @@ print("Olá,",nome_do_utilizador)
 
 #Exercicio 2:
 decimal=float(0.5)
-String="Diogo"
-int=3
+nome="Diogo"
+inteiro=3
 boolean=True
 
 #Exercicio 3
