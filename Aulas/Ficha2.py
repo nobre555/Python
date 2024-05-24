@@ -5,7 +5,7 @@ print("Olá,",nome_do_utilizador)
 
 #Exercicio 2:
 float=0,5
-String=Diogo
+String="Diogo"
 int=3
 boolean=True
 
