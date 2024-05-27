@@ -133,7 +133,32 @@ for nume in range(1,11):
 #Exercicio12
 num=int(input("Insira um número: "))
 contador=0
-while contador!=num:
-    print(num)
-    num=num-1
+while contador<=num:
+    print(contador)
+    contador=contador+1
 
+#Exercicio13
+num=int(input("Insira um número: "))
+contador=0
+soma=0
+while contador<=num:
+    if contador%2==0:
+        soma=soma+contador
+    contador=contador+1
+print(soma)
+
+#Exercicio14
+numeroRandom=random.randrange(1,20)
+numeroUtilizador=int(input("Adivinhe o número: "))
+while numeroUtilizador!=numeroRandom:
+    if numeroUtilizador>numeroRandom:
+        print("Número demasiado alto")
+    elif numeroUtilizador<numeroRandom:
+        print("Número demasiado baixo")
+    else:
+        print("Acertou no Número, Parabéns!!!")
+#Exercicio15
+num1=int(input("Insira um número inteiro: "))
+num2=int(input("Insira outro número inteiro: "))
+for numeros in range(num1+1,num2):
+    print(numeros)
