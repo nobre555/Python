@@ -118,3 +118,4 @@ elif jogadapc==tesoura and jogada_utilizador==tesoura:
     print("Empate")
 
 #Exercicio10
+#
