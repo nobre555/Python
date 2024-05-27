@@ -118,4 +118,22 @@ elif jogadapc==tesoura and jogada_utilizador==tesoura:
     print("Empate")
 
 #Exercicio10
-#
+num=int(input("Insira um número "))
+for nume in range(num+1):
+    print(num)
+    num=num-1
+
+#Exercicio11
+num=int(input("Insira um número "))
+pD=1
+for nume in range(1,11):
+    print(pD,"*",num,"=",num*pD)
+    pD=pD+1
+
+#Exercicio12
+num=int(input("Insira um número: "))
+contador=0
+while contador!=num:
+    print(num)
+    num=num-1
+
