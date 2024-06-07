@@ -43,3 +43,24 @@ class Telemovel:
         return capacidade-armazenamento_utilizado
 
 #Exercicio4
+class Circulo:
+    raio
+    def __init__(self,raio):
+        self.raio=raio
+    def area():
+        return 3.14*raio*raio
+    def perimetro():
+        return 
+
+#Exercicio5
+class Rectangulo:
+    Ponto(x,y)
+    float(comprimento) 
+    float(largura)
+
+    def __init__(self,Ponto):
+        self.Ponto=Ponto
+
+    def obter_pontos():
+        return Ponto.obter_valores
+    
