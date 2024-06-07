@@ -27,7 +27,35 @@ def triangulo_asteriscos(altura):
         contador=contador+1  
 
 #Exercicio5
-def contar_palavras(frase):
-    for palavras in frase():
-        return palavras
-contar_palavras("Olá jão tudo bem")
+def contar_palavras():
+    frase=input("Insira uma frase. ")
+    palavras=frase.split()
+    contagem=len(palavras)
+    return contagem
+        
+print(contar_palavras())
+
+#Exercicio6
+def calcular(num1,num2,operador):
+    if operador == "-":
+        return num1-num2
+    elif operador == "+":
+        return num1+num2
+    elif operador == "/":
+        return num1/num2
+    elif operador=="*":
+        return num1*num2
+
+#Exercicio7
+def primos(number):
+    if number > 1:
+        for i in range(2, number):
+            if number % i == 0:
+                return false
+        else:
+            return true
+
+#Exercicio8
+def area(largura,comprimento):
+    return largura*comprimento
+
